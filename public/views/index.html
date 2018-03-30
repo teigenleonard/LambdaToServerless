@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>AWS and Angular Integration</title>
+
+    <!-- Angular Library -->
+    <script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
+    <!-- Client -->
+    <script type="text/javascript" src="/scripts/client.js"></script>
+    <!-- <script type="text/javascript" src="/scripts/public.js"></script> -->
+</head>
+
+<body ng-app="LoginApp" ng-strict-di layout="column">
+
+<md-content md-theme="altTheme" flex>
+    <!-- HEADER -->
+    <div ng-include="'/views/partials/nav.html'"></div>
+
+    <main ng-view></main>
+
+</body>
+
+</html>
