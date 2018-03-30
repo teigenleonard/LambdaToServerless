@@ -6,6 +6,7 @@ provider:
   stage: test
   region: us-east-2
 
+#triggers handler.js 'module.exports.hello'
 functions:
   hello:
     handler: handler.hello
@@ -13,3 +14,12 @@ functions:
       - http:
           path: users/create
           method: get
+
+#triggers index.js 'module.exports.handler'
+  app:
+    handler: index.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+
+
