@@ -1,10 +1,9 @@
 var loginApp = angular.module("LoginApp", []);
 
-loginApp.controller("LoginController", function () {
-    var login = this;
+loginApp.controller("LoginController", ['$scope', function($scope){
 
     console.log('hello in tharr');
 
-    list.hello = "Hello World!";
+    $scope.hello = "Hello World!";
 
-});
+}]);

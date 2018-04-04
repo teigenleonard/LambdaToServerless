@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="loginApp">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>AWS and Angular Integration</title>
+    <head>
+        <meta charset="utf-8">
+        <title>AWS and Angular Integration</title>
 
-    <!-- Angular Library -->
-    <script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
-    <!-- Client -->
-    <script type="text/javascript" src="/scripts/client.js"></script>
-    <!-- <script type="text/javascript" src="/scripts/public.js"></script> -->
-</head>
+        <!-- Angular Library -->
+        <script type="text/javascript" src="../vendors/angular/angular.min.js"></script>
+        <!--<script type="text/javascript" src="../vendors/angular/angular.min.js"></script>-->
+        <!-- Client -->
+        <script type="text/javascript" src="../scripts/client.js"></script>
+    </head>
 
-<body ng-app="loginApp" layout="column">
-<md-content md-theme="altTheme" flex>
-    <!-- Nav Bar -->
-    <div ng-include="'/views/partials/nav.html'"> Login </div>
-    <!--View-->
-    <main ng-view></main>
-</body>
-
+    <body>
+        <!-- Nav Bar -->
+        <div ng-controller="LoginController">
+            {{ hello }}
+        </div>
+        <!--View-->
+        <!--<main ng-view></main>-->
+    </body>
 </html>
