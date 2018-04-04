@@ -1,4 +1,4 @@
-var loginApp = angular.module("LoginApp", []);
+const loginApp = angular.module("loginApp", []);
 
 loginApp.controller("LoginController", ['$scope', function($scope){
 
