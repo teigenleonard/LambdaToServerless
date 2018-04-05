@@ -1,9 +1,13 @@
 const loginApp = angular.module("loginApp", []);
 
-loginApp.controller("LoginController", ['$scope', function($scope){
+loginApp.controller("LoginController", ['$scope', '$http', function($scope, $http){
 
-    console.log('hello in tharr');
+    console.log('Hit LoginController');
 
-    $scope.hello = "Hello World!";
+    // $scope.hello = "Hello World!";
 
+    $http.get('https://8cnrx3wjee.execute-api.us-east-2.amazonaws.com/test')
+        .then(function(res){
+            $scope.hello = response.data;
+        });
 }]);
