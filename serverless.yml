@@ -12,14 +12,17 @@ functions:
     handler: handler.hello
     events:
       - http:
-          path: users/create
+          path: users
           method: get
+          cors: true
 
 #triggers index.js 'module.exports.handler'
   app:
     handler: index.handler
     events:
-      - http: ANY /
-      - http: 'ANY {proxy+}'
+      - http:
+          path: ANY /
+          method: any
+          cors: true
 
 
