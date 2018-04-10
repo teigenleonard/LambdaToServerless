@@ -6,23 +6,25 @@ provider:
   stage: test
   region: us-east-2
 
-#triggers handler.js 'module.exports.hello'
 functions:
+##triggers index.js 'module.exports.handler'
+#  app:
+#    handler: index.handler
+#    events:
+#      - http:
+#          path: any /
+#          method: any
+#          cors: true
+#      - http: 'ANY {proxy+}'
+
+#triggers handler.js 'module.exports.hello'
   hello:
     handler: handler.hello
     events:
       - http:
-          path: users
+          path: users/create
           method: get
-          cors: true
 
-#triggers index.js 'module.exports.handler'
-  app:
-    handler: index.handler
-    events:
-      - http:
-          path: ANY /
-          method: any
-          cors: true
+
 
 
