@@ -1,6 +1,6 @@
 'use strict';
 
-  //handler.js is triggered by handler.hello
+  //handler.js is triggered by handler.hello and HelloWorld-charter-test-hello on AWS
 module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
@@ -9,8 +9,8 @@ module.exports.hello = (event, context, callback) => {
         "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS
     },
     body: JSON.stringify({
-      message: 'Howdy!',
-      input: event,
+      message: 'Howdy from handler.js',
+      input: event
     }),
   };
 
