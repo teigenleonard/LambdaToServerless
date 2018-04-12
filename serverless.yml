@@ -7,17 +7,6 @@ provider:
   region: us-east-2
 
 functions:
-##triggers index.js 'module.exports.handler'
-#Using handler.js becasue shortcut callback funct causes errors
-#  app:
-#    handler: index.handler
-#    events:
-#      - http:
-#          path: any /
-#          method: any
-#          cors: true
-#      - http: 'ANY {proxy+}'
-
 #triggers handler.js 'module.exports.hello'
 #<cors: true> not needed if headers included in ajax call
   hello:
@@ -40,4 +29,13 @@ functions:
           trigger: CustomMessage
 
 
-
+##triggers index.js 'module.exports.handler'
+#Using handler.js becasue shortcut callback funct causes errors
+#  app:
+#    handler: index.handler
+#    events:
+#      - http:
+#          path: any /
+#          method: any
+#          cors: true
+#      - http: 'ANY {proxy+}'

@@ -3,40 +3,57 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" , initial-scale="1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
         <title>AWS and Angular Integration</title>
 
         <!-- Angular Library -->
-        <script type="text/javascript" src="../vendors/angular.js"></script>
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>-->
+        <script type="text/javascript" src="../vendors/angular/angular.js"></script>
+        <script type="text/javascript" src="../vendors/angular-animate/angular-animate.js"></script>
+        <script type="text/javascript" src="../vendors/angular-aria/angular-aria.js"></script>
+        <script type="text/javascript" src="../vendors/angular-material/angular-material.js"></script>
+        <script type="text/javascript" src="../vendors/angular-messages/angular-messages.js"></script>
         <!-- Client -->
         <script type="text/javascript" src="../scripts/client.js"></script>
     </head>
 
     <body>
-         <!--Nav Bar-->
         <div ng-controller="LoginController">
             {{ hello }}
         </div>
-        View
-        <main ng-view>
-            <div class="col-md-6 col-md-offset-3">
-                <h2>Login</h2>
-                <form name="form" role="form">
-                    <div class="form-group">
-                        <label for="username">Username</label>
-                        <input type="text" name="username" id="username" class="form-control" ng-model="vm.username" required />
-                        <span ng-show="form.username.$dirty && form.username.$error.required" class="help-block">Username is required</span>
+        <!--View-->
+        <main>
+            <div class="form-container shadow">
+                <div class="icon">
+                    <i class="mdi mdi-account-circle"></i>
+                    <div class="header"> Login </div>
+                </div>
+                <div class="inputs">
+                    <form>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                            <md-input-container >
+                                <input ng-model="user.mail" type="email" placeholder="email">
+                            </md-input-container>
+
+                            <md-input-container >
+                                <input ng-model="user.password" type="password" placeholder="password">
+                            </md-input-container>
+                        </div>
+                    </form>
+                    <div class="buttons">
+                        <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
+                            Remember Me
+                        </md-checkbox>
+                        <span class="signup">
+                <a ui-sref="signup">Sign up here</a>
+                        </span>
+                        <div class="link">
+                            <div class="link" style="padding-bottom:0;">
+                                <md-button class="md-raised primary" ui-sref="home"> Login </md-button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password" class="form-control" ng-model="vm.password" required />
-                        <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
-                    </div>
-                    <div class="form-actions">
-                        <button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary">Login</button>
-                        <a class="btn btn-link">Register</a>
-                    </div>
-                </form>
+                </div>
             </div>
 
         </main>
