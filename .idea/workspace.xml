@@ -2,581 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c37f9149-2681-4585-8cc4-8c6ab88c88a9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/client/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/scripts/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/angular-animate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/angular-animate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/angular-animate.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-animate/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/angular-aria.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/angular-aria.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/angular-aria.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-aria/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/angular-material-mocks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/angular-material.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/angular-material.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/angular-material.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/angular-material.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/angular-material.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/layouts/angular-material.layout-attributes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/layouts/angular-material.layout-attributes.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/layouts/angular-material.layout-attributes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/layouts/angular-material.layouts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/layouts/angular-material.layouts.ie_fixes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/layouts/angular-material.layouts.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/layouts/angular-material.layouts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/autocomplete/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/autocomplete/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/autocomplete/autocomplete.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/autocomplete/autocomplete.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/backdrop/backdrop-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/backdrop/backdrop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/backdrop/backdrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/backdrop/backdrop.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/backdrop/backdrop.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/bottomSheet/bottomSheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/bottomSheet/bottomSheet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/button/button-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/button/button-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/button/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/button/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/button/button.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/button/button.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/card/card-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/card/card-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/card/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/card/card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/card/card.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/card/card.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/checkbox/checkbox-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/checkbox/checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/checkbox/checkbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/checkbox/checkbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/checkbox/checkbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/chips/chips-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/chips/chips-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/chips/chips.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/chips/chips.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/chips/chips.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/chips/chips.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/colors/colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/colors/colors.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/content/content-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/content/content-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/content/content.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/content/content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/content/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/content/content.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/core/core-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/core/core-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/core/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/core/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/core/core.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/core/core.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/core/default-theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/datepicker/datepicker-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/datepicker/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/datepicker/datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/datepicker/datepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/datepicker/datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/dialog/dialog-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/dialog/dialog-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/dialog/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/dialog/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/dialog/dialog.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/dialog/dialog.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/divider/divider-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/divider/divider-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/divider/divider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/divider/divider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/divider/divider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/divider/divider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabActions/fabActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabActions/fabActions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabToolbar/fabToolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabToolbar/fabToolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabTrigger/fabTrigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/gridList/gridList-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/gridList/gridList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/gridList/gridList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/gridList/gridList.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/gridList/gridList.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/icon/icon-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/icon/icon-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/icon/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/icon/icon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/icon/icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/icon/icon.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/input/input-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/input/input-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/input/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/input/input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/input/input.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/input/input.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/list/list-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/list/list-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/list/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/list/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/list/list.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/list/list.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menu/menu-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menu/menu-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menu/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menu/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menu/menu.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menu/menu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menuBar/menuBar-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menuBar/menuBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menuBar/menuBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menuBar/menuBar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/menuBar/menuBar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/navBar/navBar-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/navBar/navBar-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/navBar/navBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/navBar/navBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/navBar/navBar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/navBar/navBar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/panel/panel-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/panel/panel-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/panel/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/panel/panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/panel/panel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/panel/panel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressCircular/progressCircular.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressCircular/progressCircular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressCircular/progressCircular.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressCircular/progressCircular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressLinear/progressLinear.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressLinear/progressLinear.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressLinear/progressLinear.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/progressLinear/progressLinear.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/radioButton/radioButton-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/radioButton/radioButton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/radioButton/radioButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/radioButton/radioButton.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/radioButton/radioButton.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/select/select-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/select/select-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/select/select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/select/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/select/select.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/select/select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/showHide/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/showHide/showHide.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sidenav/sidenav-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sidenav/sidenav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sidenav/sidenav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sidenav/sidenav.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sidenav/sidenav.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/slider/slider-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/slider/slider-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/slider/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/slider/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/slider/slider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/slider/slider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sticky/sticky.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sticky/sticky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sticky/sticky.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/sticky/sticky.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/subheader/subheader-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/subheader/subheader-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/subheader/subheader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/subheader/subheader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/subheader/subheader.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/subheader/subheader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/swipe/swipe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/swipe/swipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/swipe/swipe.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/swipe/swipe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/switch/switch-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/switch/switch-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/switch/switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/switch/switch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/switch/switch.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/switch/switch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tabs/tabs-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tabs/tabs-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tabs/tabs-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tabs/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tabs/tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tabs/tabs.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tabs/tabs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/textField/textField-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/textField/textField.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/textField/textField.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toast/toast-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toast/toast-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toast/toast.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toast/toast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toast/toast.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toast/toast.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toolbar/toolbar-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toolbar/toolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toolbar/toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toolbar/toolbar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/toolbar/toolbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tooltip/tooltip-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tooltip/tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tooltip/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tooltip/tooltip.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/tooltip/tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/truncate/truncate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/truncate/truncate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/truncate/truncate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/truncate/truncate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/whiteframe/whiteframe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/whiteframe/whiteframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/whiteframe/whiteframe.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/closure/whiteframe/whiteframe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/autocomplete/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/autocomplete/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/autocomplete/autocomplete.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/autocomplete/autocomplete.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/autocomplete/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/backdrop/backdrop-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/backdrop/backdrop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/backdrop/backdrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/backdrop/backdrop.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/backdrop/backdrop.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/backdrop/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/bottomSheet/bottomSheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/bottomSheet/bottomSheet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/bottomSheet/bottomSheet.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/bottomSheet/bottomSheet.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/bottomSheet/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/button/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/button/button-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/button/button-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/button/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/button/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/button/button.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/button/button.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/card/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/card/card-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/card/card-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/card/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/card/card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/card/card.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/card/card.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/checkbox/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/checkbox/checkbox-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/checkbox/checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/checkbox/checkbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/checkbox/checkbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/checkbox/checkbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/chips/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/chips/chips-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/chips/chips-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/chips/chips.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/chips/chips.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/chips/chips.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/chips/chips.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/colors/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/colors/colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/colors/colors.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/content/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/content/content-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/content/content-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/content/content.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/content/content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/content/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/content/content.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/core-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/core-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/core.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/core.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/core/default-theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/datepicker/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/datepicker/datepicker-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/datepicker/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/datepicker/datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/datepicker/datepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/datepicker/datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/dialog/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/dialog/dialog-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/dialog/dialog-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/dialog/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/dialog/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/dialog/dialog.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/dialog/dialog.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/divider/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/divider/divider-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/divider/divider-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/divider/divider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/divider/divider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/divider/divider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/divider/divider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabActions/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabActions/fabActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabActions/fabActions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabSpeedDial/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabToolbar/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabToolbar/fabToolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabToolbar/fabToolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabToolbar/fabToolbar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabToolbar/fabToolbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabTrigger/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabTrigger/fabTrigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/fabTrigger/fabTrigger.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/gridList/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/gridList/gridList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/gridList/gridList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/gridList/gridList.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/gridList/gridList.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/icon/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/icon/icon-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/icon/icon-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/icon/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/icon/icon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/icon/icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/icon/icon.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/input/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/input/input-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/input/input-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/input/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/input/input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/input/input.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/input/input.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/list/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/list/list-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/list/list-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/list/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/list/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/list/list.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/list/list.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menu/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menu/menu-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menu/menu-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menu/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menu/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menu/menu.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menu/menu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menuBar/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menuBar/menuBar-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menuBar/menuBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menuBar/menuBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menuBar/menuBar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/menuBar/menuBar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/navBar/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/navBar/navBar-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/navBar/navBar-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/navBar/navBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/navBar/navBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/navBar/navBar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/navBar/navBar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/panel/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/panel/panel-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/panel/panel-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/panel/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/panel/panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/panel/panel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/panel/panel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressCircular/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressCircular/progressCircular.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressCircular/progressCircular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressCircular/progressCircular.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressCircular/progressCircular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressLinear/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressLinear/progressLinear.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressLinear/progressLinear.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressLinear/progressLinear.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/progressLinear/progressLinear.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/radioButton/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/radioButton/radioButton-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/radioButton/radioButton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/radioButton/radioButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/radioButton/radioButton.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/radioButton/radioButton.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/select/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/select/select-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/select/select-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/select/select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/select/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/select/select.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/select/select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/showHide/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/showHide/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/showHide/showHide.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sidenav/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sidenav/sidenav-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sidenav/sidenav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sidenav/sidenav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sidenav/sidenav.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sidenav/sidenav.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/slider/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/slider/slider-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/slider/slider-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/slider/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/slider/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/slider/slider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/slider/slider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sticky/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sticky/sticky.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sticky/sticky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sticky/sticky.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/sticky/sticky.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/subheader/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/subheader/subheader-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/subheader/subheader-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/subheader/subheader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/subheader/subheader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/subheader/subheader.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/subheader/subheader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/swipe/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/swipe/swipe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/swipe/swipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/swipe/swipe.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/swipe/swipe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/switch/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/switch/switch-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/switch/switch-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/switch/switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/switch/switch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/switch/switch.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/switch/switch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tabs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tabs/tabs-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tabs/tabs-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tabs/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tabs/tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tabs/tabs.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tabs/tabs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/textField/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/textField/textField-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/textField/textField-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/textField/textField.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/textField/textField.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/textField/textField.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/textField/textField.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toast/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toast/toast-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toast/toast-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toast/toast.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toast/toast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toast/toast.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toast/toast.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toolbar/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toolbar/toolbar-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toolbar/toolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toolbar/toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toolbar/toolbar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/toolbar/toolbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tooltip/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tooltip/tooltip-default-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tooltip/tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tooltip/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tooltip/tooltip.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/tooltip/tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/truncate/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/truncate/truncate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/truncate/truncate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/truncate/truncate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/truncate/truncate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/virtualRepeat/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/virtualRepeat/virtualRepeat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/virtualRepeat/virtualRepeat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/whiteframe/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/whiteframe/whiteframe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/whiteframe/whiteframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/whiteframe/whiteframe.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/js/whiteframe/whiteframe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/layouts/angular-material.layout-attributes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/layouts/angular-material.layout-attributes.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/layouts/angular-material.layouts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/layouts/angular-material.layouts.ie_fixes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/layouts/angular-material.layouts.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/scss/angular-material.layout-attributes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/scss/angular-material.layouts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/modules/scss/angular-material.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-material/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/angular-messages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/angular-messages.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/angular-messages.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular-messages/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/angular-csp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/angular.min.js.gzip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/angular.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/angular/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/scripts/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/scripts/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/scripts/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/scripts/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/views/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -593,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+            <state relative-caret-position="135">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -602,20 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/public/views/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="handler.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -629,31 +53,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/scripts/client.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-            </state>
-          </provider>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="serverless.yml" pinned="false" current-in-tab="false">
@@ -670,6 +81,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>myApp</find>
+      <find>vendors</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -678,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/handler.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/serverless.yml" />
         <option value="$PROJECT_DIR$/client/views/partials/header.html" />
@@ -687,8 +98,11 @@
         <option value="$PROJECT_DIR$/public/views/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/client/views/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/handler.js" />
         <option value="$PROJECT_DIR$/server/public/views/index.html" />
+        <option value="$PROJECT_DIR$/client/views/index.html" />
+        <option value="$PROJECT_DIR$/client/scripts/client.js" />
       </list>
     </option>
   </component>
@@ -722,6 +136,11 @@
             <path>
               <item name="charter" type="b2602c69:ProjectViewProjectNode" />
               <item name="charter" type="462c0819:PsiDirectoryNode" />
+              <item name=".serverless" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charter" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -729,12 +148,6 @@
               <item name="charter" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="charter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="charter" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="charter" type="b2602c69:ProjectViewProjectNode" />
@@ -775,6 +188,7 @@
       <recent name="$PROJECT_DIR$/public/vendors" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/public/vendors/angular" />
     </key>
@@ -792,7 +206,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/app.js" working-dir="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -807,18 +221,18 @@
       <workItem from="1522386310750" duration="8716000" />
       <workItem from="1522858468484" duration="9217000" />
       <workItem from="1522948145811" duration="82000" />
-      <workItem from="1523569050313" duration="5551000" />
+      <workItem from="1523569050313" duration="9721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23566000" />
+    <option name="totallyTimeSpent" value="27736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.159375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18828125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -994,24 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1022,6 +422,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendors/angular/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/serverless.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1029,22 +432,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendors/angular/index.js">
+    <entry file="file://$PROJECT_DIR$/client/styles/style.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/scripts/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1060,20 +449,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/public/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/views/index.html">
+    <entry file="file://$PROJECT_DIR$/client/scripts/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>

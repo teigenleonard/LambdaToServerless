@@ -1,6 +1,14 @@
+.DS_Store/
 # package directories
 node_modules
 jspm_packages
+
+# server directories
+server/conf/settings.json
+server/public/
+
+# logs
+*.log
 
 # Serverless directories
 .serverless

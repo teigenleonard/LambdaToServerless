@@ -1,9 +1,11 @@
 /**
  * Client Config file
- * @desc setus up the configuration of angular for the app
+ * @desc sets up the configuration of angular for the app
  * @param ngAria, ngMaterial, ngMessages.
  * @return angular.module
  */
+
+console.log('hit client.js');
 
 const loginApp = angular.module('loginApp', ['ngMaterial', 'ngMessages', 'ngAria']);
 
