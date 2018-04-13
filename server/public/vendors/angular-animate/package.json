@@ -2,49 +2,49 @@
   "_args": [
     [
       {
-        "raw": "angular-animate",
+        "raw": "angular-animate@1.6.4",
         "scope": null,
         "escapedName": "angular-animate",
         "name": "angular-animate",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "1.6.4",
+        "spec": "1.6.4",
+        "type": "version"
       },
       "/Users/teigenleonard/WebstormProjects/charter"
     ]
   ],
-  "_from": "angular-animate@latest",
-  "_id": "angular-animate@1.6.9",
+  "_from": "angular-animate@1.6.4",
+  "_id": "angular-animate@1.6.4",
   "_inCache": true,
   "_location": "/angular-animate",
-  "_nodeVersion": "8.9.4",
+  "_nodeVersion": "6.10.1",
   "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/angular-animate-1.6.9.tgz_1517577245810_0.9634366047102958"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular-animate-1.6.4.tgz_1490952728178_0.04590123798698187"
   },
   "_npmUser": {
     "name": "angularcore",
     "email": "angular-core+npm@google.com"
   },
-  "_npmVersion": "5.6.0",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "angular-animate",
+    "raw": "angular-animate@1.6.4",
     "scope": null,
     "escapedName": "angular-animate",
     "name": "angular-animate",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "1.6.4",
+    "spec": "1.6.4",
+    "type": "version"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.6.9.tgz",
-  "_shasum": "a0f926c1ba3190bd8929ef966a7fa79760682622",
+  "_resolved": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.6.4.tgz",
+  "_shasum": "d3eb906d39834f2dfbdd982e6b8d7a3b4d9001d2",
   "_shrinkwrap": null,
-  "_spec": "angular-animate",
+  "_spec": "angular-animate@1.6.4",
   "_where": "/Users/teigenleonard/WebstormProjects/charter",
   "author": {
     "name": "Angular Core Team",
@@ -58,11 +58,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "integrity": "sha512-3/fqrmT6mJgB2O6oDvXDlNP6AJVqUXLWZq/P87Xo7Wt0JjcSmhJSQ02Yp7gm0Pkd5SXMKHICLpn/iEJPyse9fg==",
-    "shasum": "a0f926c1ba3190bd8929ef966a7fa79760682622",
-    "tarball": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.6.9.tgz"
+    "shasum": "d3eb906d39834f2dfbdd982e6b8d7a3b4d9001d2",
+    "tarball": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.6.4.tgz"
   },
-  "gitHead": "b9edd1d6c8d9b6d040299d351155ac163a0be437",
+  "gitHead": "a6c7e14a23096348e55a342a8f671466239ed3ab",
   "homepage": "http://angularjs.org",
   "jspm": {
     "shim": {
@@ -106,5 +105,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.6.9"
+  "version": "1.6.4"
 }

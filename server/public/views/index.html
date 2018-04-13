@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="loginApp">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" , initial-scale="1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>AWS and Angular Integration</title>
+
+        <!-- angular -->
+        <script type="text/javascript" src="vendors/angular/angular.min.js"></script>
+        <script type="text/javascript" src="vendors/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="vendors/angular-animate/angular-animate.min.js"></script>
+        <script type="text/javascript" src="vendors/angular-aria/angular-aria.min.js"></script>
+        <script type="text/javascript" src="vendors/angular-messages/angular-messages.min.js"></script>
+        <script type="text/javascript" src="vendors/angular-material/angular-material.min.js"></script>
+        <!-- configuration files -->
+        <script type="text/javascript" src="scripts/client.js"></script>
+    </head>
+
+    <body>
+        <div ng-controller="LoginController">
+            {{ hello }}
+        </div>
+        <!--View-->
+        <main>
+            <div class="form-container shadow">
+                <div class="icon">
+                    <i class="mdi mdi-account-circle"></i>
+                    <div class="header"> Login </div>
+                </div>
+                <div class="inputs">
+                    <form>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                            <md-input-container >
+                                <input ng-model="user.mail" type="email" placeholder="email">
+                            </md-input-container>
+
+                            <md-input-container >
+                                <input ng-model="user.password" type="password" placeholder="password">
+                            </md-input-container>
+                        </div>
+                    </form>
+                    <div class="buttons">
+                        <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
+                            Remember Me
+                        </md-checkbox>
+                        <span class="signup">
+                <a ui-sref="signup">Sign up here</a>
+                        </span>
+                        <div class="link">
+                            <div class="link" style="padding-bottom:0;">
+                                <md-button class="md-raised primary" ui-sref="home"> Login </md-button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </body>
+</html>
