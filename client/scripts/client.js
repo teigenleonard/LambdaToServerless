@@ -7,7 +7,7 @@
 
 console.log('hit client.js');
 
-const loginApp = angular.module('loginApp', ['ngMaterial', 'ngMessages', 'ngAria']);
+const loginApp = angular.module('loginApp', []);
 
 loginApp.controller("LoginController", ['$scope', '$http', function($scope, $http){
 
