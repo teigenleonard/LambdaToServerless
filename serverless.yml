@@ -7,7 +7,7 @@ provider:
   region: us-east-2
 
 functions:
-#triggers handler.js 'module.exports.hello'
+#this triggers handler.js 'module.exports.hello'
 #<cors: true> not needed if headers included in ajax call
   hello:
     handler: handler.hello
@@ -15,12 +15,7 @@ functions:
       - http:
           path: users/create
           method: get
-  preSignUp:
-    handler: preSignUp.handler
-    events:
-      - cognitoUserPool:
-          pool: demo
-          trigger: PreSignUp
+
   customMessage:
     handler: customMessage.handler
     events:
@@ -39,3 +34,10 @@ functions:
 #          method: any
 #          cors: true
 #      - http: 'ANY {proxy+}'
+
+#  preSignUp:
+#    handler: preSignUp.handler
+#    events:
+#      - cognitoUserPool:
+#          pool: demo
+#          trigger: PreSignUp
