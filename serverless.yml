@@ -23,9 +23,19 @@ functions:
           pool: demo
           trigger: CustomMessage
 
+  preSignUp:
+    handler: preSignUp.handler
+    events:
+      - http:
+          path: authentication
+          method: post
+#      - cognitoUserPool:
+#          pool: demo
+#          trigger: preSignUp
+
 
 ##triggers index.js 'module.exports.handler'
-#Using handler.js becasue shortcut callback funct causes errors
+#Using handler.js because shortcut callback funct causes errors with CORS
 #  app:
 #    handler: index.handler
 #    events:
@@ -35,9 +45,3 @@ functions:
 #          cors: true
 #      - http: 'ANY {proxy+}'
 
-#  preSignUp:
-#    handler: preSignUp.handler
-#    events:
-#      - cognitoUserPool:
-#          pool: demo
-#          trigger: PreSignUp
