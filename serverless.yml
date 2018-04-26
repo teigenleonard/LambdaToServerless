@@ -29,9 +29,9 @@ functions:
       - http:
           path: authentication
           method: post
-#      - cognitoUserPool:
-#          pool: demo
-#          trigger: preSignUp
+      - cognitoUserPool:
+          pool: demo
+          trigger: preSignUp
 
 
 ##triggers index.js 'module.exports.handler'
