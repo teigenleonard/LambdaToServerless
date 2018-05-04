@@ -15,14 +15,14 @@ functions:
           method: get
           cors: true  # <cors: true> does doesn't seem to be needed if headers included in ajax call
           authorizer: aws_iam
-#  preSignUp:
-#    handler: preSignUp.handler
-#    events:
-#      - http:
-#          path: authentication
-#          method: post
-#          cors: true
-#          authorizer: aws_iam
+  preSignUp:
+    handler: preSignUp.handler
+    events:
+      - http:
+          path: authentication
+          method: post
+          cors: true
+          authorizer: aws_iam
 
 #  This shortcut callback function causes errors with CORS
 #  app:
