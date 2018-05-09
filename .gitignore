@@ -10,5 +10,8 @@ server/public/
 # logs
 *.log
 
-# Serverless directories
+# serverless directories
 .serverless
+
+# configuration for AWS
+.config.js
