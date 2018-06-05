@@ -12,7 +12,7 @@ server/public/
 # serverless directories
 .serverless
 
-# configuration for AWS
+# configuration for cognito in Amplify SDK
 config.js
 
 # misc
