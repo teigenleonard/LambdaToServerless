@@ -13,7 +13,7 @@ server/public/
 .serverless
 
 # configuration for cognito in Amplify SDK
-config.js
+config.json
 
 # misc
 .DS_Store/

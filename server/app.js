@@ -1,11 +1,20 @@
 const express = require( 'express' );
-const path = require( 'path' );
 const bodyParser = require( 'body-parser' );
+const path = require( 'path' );
+
+// AWS SDK and AWS config file
 const Amplify = require( 'aws-amplify' );
-const config = require( './config' );
+// const config = require( '/Users/teigenleonard/WebstormProjects/charter/config' );
+
+
+// just added and has not been written into 'Amplify.configure' function.
+const jsonPath = path.join(__dirname, '..', 'config.json');
+const rawdata = fs.readFileSync(jsonPath);
+const configValues = JSON.parse(rawdata);
 
 const app = express();
 
+// 'configure' not recognized as a function in node debugging. not updated w 'configValues'
 Amplify.configure({
     Auth: {
         mandatorySignIn: true,
@@ -26,6 +35,9 @@ Amplify.configure({
 });
 
 app.set( 'port', ( process.env.PORT || 5000 ));
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.use( express.static( '/server/public/'));
 
